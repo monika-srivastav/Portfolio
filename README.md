@@ -6,5 +6,5 @@ This is a single-page React + Tailwind starter portfolio for Monika Srivastav.
 
 npm run dev
 
-This project uses Vite + React + TailwindCSS. Replace placeholder images and screenshots in `src` with your own assets. The resume PDF (Monika_MERN_Resume_2.pdf) is included in the project root.
+This project uses Vite + React + TailwindCSS. Replace placeholder images and screenshots in `src` with your own assets. The resume PDF (Resume.pdf) is included in the project root.
 
