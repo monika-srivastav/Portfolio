@@ -20,7 +20,7 @@ import weatherApp from "./assets/weatherApp.mp4";
 // ===== Header =====
 const Header = () => {
   const [active, setActive] = useState("home");
-  const sections = ["home","about","projects","experience","education","contact"];
+  const sections = ["home","about","projects","exgiperience","education","contact"];
   const handleScroll = (id) => {
     document.getElementById(id).scrollIntoView({behavior:"smooth"});
     setActive(id);
