@@ -4,6 +4,8 @@ import { Github, ExternalLink, Linkedin } from "lucide-react";
 // Assets
 import passOp from "./assets/passOp.mp4";
 import pass from "./assets/pass.png";
+import patient from "./assets/patient.png";
+import patientDashboad from "./assets/patientDashboard.mp4";
 import cofee from "./assets/cofee.png";
 import vectorGallery from "./assets/vectorGallery.mp4";
 import AmazonClone from "./assets/AmazonClone.png";
@@ -20,7 +22,7 @@ import weatherApp from "./assets/weatherApp.mp4";
 // ===== Header =====
 const Header = () => {
   const [active, setActive] = useState("home");
-  const sections = ["home","about","projects","exgiperience","education","contact"];
+  const sections = ["home","about","projects","experience","education","contact"];
   const handleScroll = (id) => {
     document.getElementById(id).scrollIntoView({behavior:"smooth"});
     setActive(id);
@@ -61,12 +63,10 @@ const Home = () => (
     >
       <h2 className="text-4xl font-bold mb-4">
         Hi — I’m Monika<br/>
-        <span className="text-yellow-300 font-semibold">MERN Stack Developer</span>
+        <span className="text-yellow-300 font-semibold">Full Stack developer</span>
       </h2>
       <p className="text-gray-100 mb-6">
-        Building scalable and responsive web applications with React, Node.js, Express, and MongoDB.
-        Currently pursuing MCA (1st year) at Institute of Advanced Management & Research.
-      </p>
+        I am a Frontend and Full-Stack Developer passionate about building responsive and user-friendly web applications. I specialize in modern technologies like HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB to create scalable and efficient web solutions.</p>
       <div className="flex gap-3 justify-center">
         <a 
           href="/Monika_MERN_Resume_2.pdf" 
@@ -278,7 +278,7 @@ const Footer = () => (
 
 // ===== Main App =====
 export default function App() {
-  const summary = `MERN Stack Developer experienced in building responsive, scalable web applications with React.js, Node.js, Express.js, and MongoDB. Skilled in REST APIs, authentication, and cloud integration.`
+  const summary = `Dedicated Technical Support professional with experience in assisting clients, providing app training, and resolving issues efficiently. Skilled in communication, troubleshooting, and improving user experience.`
   const skills = ["React.js","Redux","TailwindCSS","HTML5","CSS3","JavaScript","Node.js","Express.js","MongoDB","MySQL","Postman","Firebase","AWS Lambda","Github"]
 
   const projects = [
@@ -289,19 +289,11 @@ export default function App() {
     { name: "Password Manager", desc: "Secure password manager to store credentials for various platforms.", github: "https://github.com/monika-srivastav/passwordManager.git", video: passOp, screenshot: pass },
     { name: "Shopper (E-Commerce)", desc: "Fully functional e-commerce website with cart & checkout.", github: "https://github.com/monika-srivastav/Shopping_website.git", video: shopping, screenshot: shopper },
     { name: "Url Shortener", desc: "Web app to shorten long URLs into manageable links.", github: "https://github.com/monika-srivastav/url_shortner", video: urlShortener, screenshot: Url },
+    { name: "Patient Dashboard", desc: "React app to keep data of the patients.", github: "https://github.com/monika-srivastav/patientDashboard", video: patientDashboad, screenshot: patient },
   ];
 
   const experience = [
-    {
-      role: "MERN Stack Developer",
-      company: "Snowebs Software Technologies Pvt Ltd",
-      duration: "Nov 2024 – Present",
-      bullets: [
-        "Built a WhatsApp-like chat app using React, Node.js, MySQL, WebSocket & AWS Lambda.",
-        "Integrated Wazzup API with webhook listeners for WhatsApp, enabling delivery tracking and live updates.",
-        "Designed microservices for geospatial data from Firestore and created dashboards to monitor GPS & networks."
-      ]
-    },
+   
     {
       role: "Front-End Developer (Internship)",
       company: "Netwings Solution Pvt Ltd",
@@ -314,7 +306,7 @@ export default function App() {
   ];
 
   const education = [
-    { degree: "MCA (1st Year)", institution: "IAMR" },
+    { degree: "MCA (1st Year)", institution: "Institute of Advanced Management and Research " },
     { degree: "BCA", institution: "Modern College of Professional Studies — 71.3% (2021–2024)" },
     { degree: "12th (Science)", institution: "Loni Inter College — 77.8%" },
   ];
