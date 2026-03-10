@@ -69,7 +69,7 @@ const Home = () => (
         I am a Frontend and Full-Stack Developer passionate about building responsive and user-friendly web applications. I specialize in modern technologies like HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB to create scalable and efficient web solutions.</p>
       <div className="flex gap-3 justify-center">
         <a 
-          href="/Monika_MERN_Resume_2.pdf" 
+          href="/Monika_FullStack.pdf" 
           download 
           className="px-6 py-2 bg-yellow-400 text-gray-900 font-semibold rounded shadow hover:bg-yellow-300 transition transform hover:-translate-y-1 hover:shadow-lg"
         >
@@ -279,7 +279,7 @@ const Footer = () => (
 // ===== Main App =====
 export default function App() {
   const summary = `Dedicated Technical Support professional with experience in assisting clients, providing app training, and resolving issues efficiently. Skilled in communication, troubleshooting, and improving user experience.`
-  const skills = ["React.js","Redux","TailwindCSS","HTML5","CSS3","JavaScript","Node.js","Express.js","MongoDB","MySQL","Postman","Firebase","AWS Lambda","Github"]
+  const skills = ["React.js","Redux","TailwindCSS","HTML5","CSS3","JavaScript","Node.js","Express.js","MongoDB","Postman","Firebase","Github"]
 
   const projects = [
     { name: "Amazon Clone", desc: "Responsive e-commerce website inspired by Amazon. Developed with HTML & CSS.", github: "https://github.com/monika-srivastav/Amazon_clone", video: Amazon, screenshot: AmazonClone },
